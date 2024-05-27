@@ -1,0 +1,1 @@
+// This is how we are displaying the final information all nicely in cards on the WorkoutPlan final page

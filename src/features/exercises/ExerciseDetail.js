@@ -1,0 +1,1 @@
+// this is where users see additional information about each exercise and choose their difficulty level
