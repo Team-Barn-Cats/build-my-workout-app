@@ -13,7 +13,7 @@ export const EXERCISES = [
     {
         id: 1,
         name: 'Glute Bridges',
-        image: 'https://t3.ftcdn.net/jpg/02/62/56/28/360_F_262562893_FRyE74UesGLF5qVDLzVcU13obDhUBzbH.jpg',
+        image: 'https://t3.ftcdn.net/jpg/04/44/87/42/360_F_444874206_tiiOMJH50lFiUZoLlEiB0YoAfEjKmleW.jpg',
         category: 'lowerbody',
         description:
             'Start with your back flat on the floor and your feet placed shoulder-width apart flat on the floor, creating a 90-degree angle with your knees. Engage your core and lift your hips up by contracting your glutes and pushing your heels into the floor, keeping a neutral spine and neck. Pause at the top, then slowly move your hips down to start position. Repeat.',
@@ -24,7 +24,7 @@ export const EXERCISES = [
     {
         id: 2,
         name: 'Biceps Curl',
-        image: 'https://t3.ftcdn.net/jpg/02/62/56/28/360_F_262562893_FRyE74UesGLF5qVDLzVcU13obDhUBzbH.jpg',
+        image: 'https://www.shutterstock.com/image-vector/man-doing-barbell-drag-bicep-260nw-2250847855.jpg',
         category: 'upperbody',
         description:
             'Grip a weight in each hand and pull your fists in to your chest.',
@@ -35,7 +35,7 @@ export const EXERCISES = [
     {
         id: 3,
         name: 'Squats',
-        image: 'https://t3.ftcdn.net/jpg/02/62/56/28/360_F_262562893_FRyE74UesGLF5qVDLzVcU13obDhUBzbH.jpg',
+        image: 'https://media.istockphoto.com/id/1135331615/vector/exercise-guide-by-woman-doing-air-squat-in-2-steps-in-side-view-for-strengthens-entire-lower.jpg?s=612x612&w=0&k=20&c=IkcJfYojhqUNv-q1uxD4d7oQGUB3gAczs4qeZbd00xo=',
         category: 'lowerbody',
         description:
             'Stand with your feet shoulder-with apart and bend your knees. Repeat.',
