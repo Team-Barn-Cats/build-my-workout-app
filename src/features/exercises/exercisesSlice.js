@@ -5,3 +5,7 @@ import { EXERCISES } from '../../app/shared/EXERCISES';
 export const selectFullBody = () => {
     return EXERCISES;
 };
+
+export const selectUpperBody = () => {
+    return EXERCISES.find((exercise) => exercise.category === 'upperbody');
+};
