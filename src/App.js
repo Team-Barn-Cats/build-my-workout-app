@@ -1,56 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
 import './App.css';
+import { Routes, Route } from "react-router-dom";
+import FullBody from './components/FullBody';
+import LowerBody from './components/LowerBody';
+import UpperBody from './components/UpperBody';
+import ExerciseHero from './components/Hero/ExerciseHero';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Counter />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <span>
-          <span>Learn </span>
-          <a
-            className="App-link"
-            href="https://reactjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux-toolkit.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux Toolkit
-          </a>
-          ,<span> and </span>
-          <a
-            className="App-link"
-            href="https://react-redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React Redux
-          </a>
-        </span>
-      </header>
+      <h1>Workout App</h1>
+      <h2>This is where the Hero element will go.</h2>
+      <Routes>
+              <Route path='/' element={<ExerciseHero />} />
+              <Route path='fullBody' element={<FullBody />} />
+              <Route path='upperBody' element={<UpperBody />} />
+              <Route path='lowerBody' element= {<LowerBody />} />
+      </Routes>
     </div>
   );
 }
