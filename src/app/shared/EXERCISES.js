@@ -27,7 +27,7 @@ export const EXERCISES = [
         name: 'Lateral Lunge',
         image: 'https://gymgeek.com/wp-content/uploads/2024/02/lateral-lunge.png',
         category: 'lowerbody', 
-        descrption: 'Stand with your feet together. Take a big step out to one side. When your foot hits the floor, hinge forward at the hips, push your butt back, and bend your right knee to lower into a lunge. Return to standing. Repeat on the other side.',
+        description: 'Stand with your feet together. Take a big step out to one side. When your foot hits the floor, hinge forward at the hips, push your butt back, and bend your right knee to lower into a lunge. Return to standing. Repeat on the other side.',
         easy: '1 set of 10',
         medium: '3 sets of 12',
         hard: '5 sets of 15' 
@@ -102,7 +102,7 @@ export const EXERCISES = [
         medium: '3 sets of 6',
         hard: '5 sets of 10'
     },
-    
+
     //UPPER BODY
     {
         id: 10,
