@@ -9,7 +9,7 @@ const ExercisesCheckbox = ({ exercise }) => {
     <div>
         <ExerciseCard exercise={exercise}/>
         <input type="checkbox" />
-{/*        <label>{name}</label> */}
+        <label>{name}</label>
     </div>
   );
 };
