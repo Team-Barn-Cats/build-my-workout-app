@@ -27,7 +27,7 @@ export const EXERCISES = [
         name: 'Lateral Lunge',
         image: 'https://gymgeek.com/wp-content/uploads/2024/02/lateral-lunge.png',
         category: 'lowerbody', 
-        descrption: 'Stand with your feet together. Take a big step out to one side. When your foot hits the floor, hinge forward at the hips, push your butt back, and bend your right knee to lower into a lunge. Return to standing. Repeat on the other side.',
+        description: 'Stand with your feet together. Take a big step out to one side. When your foot hits the floor, hinge forward at the hips, push your butt back, and bend your right knee to lower into a lunge. Return to standing. Repeat on the other side.',
         easy: '1 set of 10',
         medium: '3 sets of 12',
         hard: '5 sets of 15' 
@@ -37,7 +37,7 @@ export const EXERCISES = [
         name: 'Reverse Lunge',
         image: 'https://img1.wsimg.com/isteam/ip/ed7f6151-3da5-4583-9a5b-44adc64e961e/BW%20Reverse%20Lunge%20Complete.JPG',
         category: 'lowerbody', 
-        descrption: 'Stand with your feet about shoulder-width apart. Step backward, landing on the ball of your foot and keeping your heel off the floor.Bend both knees to 90 degrees as you sink into a lunge. Repeat on the other side.',
+        description: 'Stand with your feet about shoulder-width apart. Step backward, landing on the ball of your foot and keeping your heel off the floor.Bend both knees to 90 degrees as you sink into a lunge. Repeat on the other side.',
         easy: '1 set of 10',
         medium: '3 sets of 12',
         hard: '5 sets of 15'
@@ -47,7 +47,7 @@ export const EXERCISES = [
         name: 'Single Leg Deadlift',
         image: 'https://as1.ftcdn.net/v2/jpg/05/74/58/12/1000_F_574581223_a14B3RIbiPVfG9436mq9y4DQVDbTzhQz.jpg',
         category: 'lowerbody',
-        descrption: 'Stand on one leg, keeping your standing leg slightly bent. Lean forward, lifting the other leg straight behind the body until the torso is parallel to the floor. Hold for 5 seconds. Return to upright and repeat on the other side.',
+        description: 'Stand on one leg, keeping your standing leg slightly bent. Lean forward, lifting the other leg straight behind the body until the torso is parallel to the floor. Hold for 5 seconds. Return to upright and repeat on the other side.',
         easy: '1 set of 10',
         medium: '3 sets of 12',
         hard: '5 sets of 15'
@@ -57,7 +57,7 @@ export const EXERCISES = [
         name: 'Calf Raise',
         image: 'https://media.istockphoto.com/id/1189512757/vector/workout-diagram-about-calves-reduction-with-toe-stand-exercise.jpg?s=612x612&w=0&k=20&c=oD53rVVPePWOMOWRJ4_1kR2qdIq4krTZKGMUIDpH3Ho=',
         category: 'lowerbody', 
-        descrption: 'Stand with feet shoulder-width apart. Press through balls of feet to lift heels high up off the floor. Keep knees straight but not locked. At the top, squeeze calf muscles and hold for five seconds. Repeat.',
+        description: 'Stand with feet shoulder-width apart. Press through balls of feet to lift heels high up off the floor. Keep knees straight but not locked. At the top, squeeze calf muscles and hold for five seconds. Repeat.',
         easy: '1 set of 10',
         medium: '3 sets of 12',
         hard: '5 sets of 15'
@@ -67,7 +67,7 @@ export const EXERCISES = [
         name: 'Step Up',
         image: 'https://media.istockphoto.com/id/1219004179/vector/woman-doing-dumbbell-step-up-exercise-by-stepping-on-the-chair-and-standing-workout-while.jpg?s=612x612&w=0&k=20&c=sL9Jced7XLgKVpBYP4cbFO8iyxNSNZdJqIx_vGwkRGE=',
         category: 'lowerbody', 
-        descrption: 'Find a stair-step or sturdy chair. Step up with one leg. Push through the foot and bring your back leg up and float that leg in front of you at a 90-degree angle. Move your leg back to the floor behind you with control. Step off the platform. Repeat on other side.',
+        description: 'Find a stair-step or sturdy chair. Step up with one leg. Push through the foot and bring your back leg up and float that leg in front of you at a 90-degree angle. Move your leg back to the floor behind you with control. Step off the platform. Repeat on other side.',
         easy: '1 set of 8',
         medium: '3 sets of 10',
         hard: '5 sets of 12'
@@ -77,7 +77,7 @@ export const EXERCISES = [
         name: 'Fire Hydrant',
         image: 'https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Fire-Hydrant_600x600.png?v=1656402231',
         category: 'lowerbody', 
-        descrption: 'Start in an all-fours position, with your wrists under your shoulders, knees under your hips, and core engaged. Lift one knee up to your side toward the ceiling. Return to start. Repeat on the other side.',
+        description: 'Start in an all-fours position, with your wrists under your shoulders, knees under your hips, and core engaged. Lift one knee up to your side toward the ceiling. Return to start. Repeat on the other side.',
         easy: '1 set of 5',
         medium: '3 sets of 6',
         hard: '5 sets of 10'
@@ -87,7 +87,7 @@ export const EXERCISES = [
         name: 'Side-Lying Inner Thigh Raise',
         image: 'https://www.wikihow.com/images/thumb/b/b0/Do-an-Inner-Thigh-Lift-Step-8.jpg/aid11399091-v4-1200px-Do-an-Inner-Thigh-Lift-Step-8.jpg',
         category: 'lowerbody', 
-        descrption: 'Lie on one side with your legs out straight and stacked on top of each other. Cross your top leg over your bottom leg, bending at the knee so that your top foot is in front of your bottom knee. Lift your bottom leg toward the ceiling in a slow and controlled movement. Return to start. Repeat.',
+        description: 'Lie on one side with your legs out straight and stacked on top of each other. Cross your top leg over your bottom leg, bending at the knee so that your top foot is in front of your bottom knee. Lift your bottom leg toward the ceiling in a slow and controlled movement. Return to start. Repeat.',
         easy: '1 set of 5',
         medium: '3 sets of 6',
         hard: '5 sets of 10'
@@ -97,19 +97,19 @@ export const EXERCISES = [
         name: 'Donkey Kick',
         image: 'https://thumbs.dreamstime.com/b/donkey-kicks-sport-exersice-silhouettes-woman-doing-exercise-workout-training-donkey-kicks-sport-exersice-silhouettes-woman-134685814.jpg',
         category: 'lowerbody', 
-        descrption: 'Start in an all-fours position, with your wrists under your shoulders, knees under your hips, and core engaged. Kick your foot up and toward the ceiling, engaging your glutes and hamstrings. Stop lifting before you arch your low back. Return to start. Repeat.',
+        description: 'Start in an all-fours position, with your wrists under your shoulders, knees under your hips, and core engaged. Kick your foot up and toward the ceiling, engaging your glutes and hamstrings. Stop lifting before you arch your low back. Return to start. Repeat.',
         easy: '1 set of 5',
         medium: '3 sets of 6',
         hard: '5 sets of 10'
     },
-    
+
     //UPPER BODY
     {
         id: 10,
         name: 'Plank',
         image: 'https://t3.ftcdn.net/jpg/02/77/23/32/360_F_277233250_NIwVrOKQvXNOmHjHOZWoMHKjSLLzFttS.jpg',
         category: 'upperbody', 
-        descrption: 'Lie on a mat with your forearms on the floor just under each shoulder and feet hip-width apart. With your toes on the floor, lift up so your bodyweight is balanced on your forearms and toe. Hold for duration.',
+        description: 'Lie on a mat with your forearms on the floor just under each shoulder and feet hip-width apart. With your toes on the floor, lift up so your bodyweight is balanced on your forearms and toe. Hold for duration.',
         easy: '20 seconds',
         medium: '40 seconds',
         hard: '60 seconds or more'
@@ -119,7 +119,7 @@ export const EXERCISES = [
         name: 'Mountain Climbers',
         image: 'https://t3.ftcdn.net/jpg/04/62/80/16/360_F_462801646_G0ioNWYiZ5PMLsb5QvQW8taMG5mZfbbU.jpg',
         category: 'upperbody', 
-        descrption: 'Start on the floor with your hands positioned beneath your shoulder. Pull your right knee inwards towards your chest and then return to the start position. Repeat with your left leg. This should be a high paced movement.',
+        description: 'Start on the floor with your hands positioned beneath your shoulder. Pull your right knee inwards towards your chest and then return to the start position. Repeat with your left leg. This should be a high paced movement.',
         easy: '20 seconds',
         medium: '40 seconds',
         hard: '60 seconds or more'
@@ -129,7 +129,7 @@ export const EXERCISES = [
         name: 'Push Up',
         image: 'https://media.istockphoto.com/id/578104104/vector/step-to-instruction-in-push-up.jpg?s=612x612&w=0&k=20&c=AYSyhYJB-98AZL2Euig4fygTjdxliyE8TWHGfXNO6go=',
         category: 'upperbody', 
-        descrption: 'Begin in plank position. Push your body up without locking your elbows, then lower your body. Repeat. For easier variations, push up from your knees rather than your toes or use the wall instead of the floor.',
+        description: 'Begin in plank position. Push your body up without locking your elbows, then lower your body. Repeat. For easier variations, push up from your knees rather than your toes or use the wall instead of the floor.',
         easy: '1 set of 8',
         medium: '3 sets of 10',
         hard: '5 sets of 12'    },
@@ -138,7 +138,7 @@ export const EXERCISES = [
         name: 'Hand Walk Out',
         image: 'https://as2.ftcdn.net/v2/jpg/04/72/55/49/1000_F_472554949_jbk9ysDeJgXDfOC4WcpTlWf8jMHQI6rw.jpg',
         category: 'upperbody', 
-        descrption: 'Stand at the back of a mat, bending forward so your fingertips touch the mat, while keeping legs straight. Walk hands forward until you’re in a push-up position. Walk feet forward to meet hands, making sure to keep your butt in the air. Stand up straight and turn around for the next rep.',
+        description: 'Stand at the back of a mat, bending forward so your fingertips touch the mat, while keeping legs straight. Walk hands forward until you’re in a push-up position. Walk feet forward to meet hands, making sure to keep your butt in the air. Stand up straight and turn around for the next rep.',
         easy: '1 set of 5',
         medium: '3 sets of 6',
         hard: '5 sets of 8'
@@ -148,7 +148,7 @@ export const EXERCISES = [
         name: 'Diamond Push Up',
         image: 'https://www.spoliamag.com/wp-content/uploads/2022/05/Diamond-Push-up-Final.jpg',
         category: 'upperbody', 
-        descrption: 'Start in a standard push up position on your hands and feet. Move your hands under your chest so your thumbs and index fingers form a diamond shape. To perform a rep, lower yourself to the ground, hold it for 1 count, and push yourself back to the starting position.',
+        description: 'Start in a standard push up position on your hands and feet. Move your hands under your chest so your thumbs and index fingers form a diamond shape. To perform a rep, lower yourself to the ground, hold it for 1 count, and push yourself back to the starting position.',
         easy: '1 set of 5',
         medium: '3 sets of 6',
         hard: '5 sets of 8'
@@ -158,7 +158,7 @@ export const EXERCISES = [
         name: 'Arm Circles',
         image: 'https://static.vecteezy.com/system/resources/previews/006/417/754/non_2x/woman-doing-arm-circles-exercise-flat-illustration-isolated-on-white-background-free-vector.jpg',
         category: 'upperbody', 
-        descrption: 'Stand straight with your feet shoulder-width apart. Raise and extend your arms to the sides without bending the elbows. Slowly rotate your arms forward (or backward), making small circles of about 1 foot in diameter.',
+        description: 'Stand straight with your feet shoulder-width apart. Raise and extend your arms to the sides without bending the elbows. Slowly rotate your arms forward (or backward), making small circles of about 1 foot in diameter.',
         easy: '20 seconds',
         medium: '40 seconds',
         hard: '60 seconds or more'
@@ -168,7 +168,7 @@ export const EXERCISES = [
         name: 'Isometric Chest Squeeze',
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2dz4Uk0IKPpyZUzEPtdcVKeD9CH8u0EZ86w&s',
         category: 'upperbody', 
-        descrption: 'Press the palms of your hands together in front of your chest. Push your hands against each other, contracting your chest as you do so. Hold for a few seconds. Repeat.',
+        description: 'Press the palms of your hands together in front of your chest. Push your hands against each other, contracting your chest as you do so. Hold for a few seconds. Repeat.',
         easy: '1 set of 10',
         medium: '3 sets of 12',
         hard: '5 sets of 15'
@@ -178,7 +178,7 @@ export const EXERCISES = [
         name: 'Arm Raises',
         image: 'https://static.vecteezy.com/system/resources/thumbnails/016/126/551/small/woman-doing-double-arm-front-raises-exercise-flat-illustration-isolated-on-white-background-vector.jpg',
         category: 'upperbody', 
-        descrption: 'Stand with feet shoulder length apart and keep your hands at your side with palms facing forward, raise your arms up and out to the sides so that your arms are at shoulder height. Then lower them to starting position. Repeat.',
+        description: 'Stand with feet shoulder length apart and keep your hands at your side with palms facing forward, raise your arms up and out to the sides so that your arms are at shoulder height. Then lower them to starting position. Repeat.',
         easy: '1 set of 10',
         medium: '3 sets of 12',
         hard: '5 sets of 15'
