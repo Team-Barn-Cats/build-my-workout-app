@@ -7,7 +7,7 @@ import { Formik, Field, Form } from 'formik';
 const HeroOptions = () => {
     return (
     <div>
-    <h1>HeroOptions</h1>
+    {/*<h1>HeroOptions</h1>*/}
     <Formik
       initialValues={{
         picked: '',
@@ -19,7 +19,7 @@ const HeroOptions = () => {
     >
       {({ values }) => (
         <Form>
-          <div id="exercise-group">Choose your workout:</div>
+          <h2 id="exercise-group">Choose your workout:</h2>
           <div role="group" aria-labelledby="exercise-group">
             <label>
               <Field type="radio" name="exerciseOption" value="fullBody" />
@@ -33,7 +33,7 @@ const HeroOptions = () => {
               <Field type="radio" name="exerciseOption" value="LowerBody" />
               Lower Body
             </label>
-            <div>Picked: {values.exerciseOption}</div>
+            {/*<div>Selected: {values.exerciseOption}</div>*/}
           </div>
 
           <button type="submit">Submit</button>

@@ -5,7 +5,7 @@ import HeroOptions from "./HeroOptions";
 const ExerciseHero = () => {
     return (
         <div>
-            <h2>ExerciseHero element</h2>
+            {/*<h2>ExerciseHero element</h2>*/}
             <HeroOptions />
             
             
