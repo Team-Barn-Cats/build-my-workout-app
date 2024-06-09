@@ -13,9 +13,8 @@ import ExerciseDetailPage from './app/pages/ExerciseDetailPage.js';
 function App() {
   return (
     <div className="App">
-      <h1>Workout App</h1>
-      <h2>This is where the Hero element will go.</h2>
 
+      <h1>Build My Workout App</h1>
 
       <Routes>
               <Route path='/' element={<ExerciseHero />} />

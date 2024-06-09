@@ -7,7 +7,9 @@ import LowerBody from "../LowerBody";
 
 
 const ExerciseHero = () => {
+
     const [selectedWorkoutOption, setSelectedWorkoutOption] = useState(null);
+
 
     const handleOptionSubmit = (option) => {
       setSelectedWorkoutOption(option);

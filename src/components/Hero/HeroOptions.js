@@ -2,8 +2,10 @@ import React, { useState } from 'react';
 import { Formik, Field, Form } from 'formik';
 import { Button } from 'reactstrap';
 
+
 function HeroOptions({ onSubmit }) {
   return (
+
     <Formik
       initialValues={{ option: "" }}
         onSubmit={(values, { setSubmitting }) => {
@@ -11,6 +13,7 @@ function HeroOptions({ onSubmit }) {
           setSubmitting(false);
         }}
     >
+
       {({ handleSubmit }) => (
         <Form onSubmit={handleSubmit}>
             <div id="exercise-group">Choose your workout:</div>
@@ -24,6 +27,7 @@ function HeroOptions({ onSubmit }) {
               <Field type="radio" name="option" value="lowerBody" />
               <label for="lowerBody">Lower Body</label>
             </div>
+
 
             <Button type="submit">Submit</Button>
           </Form>
