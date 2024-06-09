@@ -8,11 +8,15 @@ import ExerciseHero from './components/Hero/ExerciseHero';
 import ExerciseDetailPage from './app/pages/ExerciseDetailPage.js';
 
 
+
+
 function App() {
   return (
     <div className="App">
       <h1>Workout App</h1>
       <h2>This is where the Hero element will go.</h2>
+
+
       <Routes>
               <Route path='/' element={<ExerciseHero />} />
               <Route path='fullBody' element={<FullBody />} />

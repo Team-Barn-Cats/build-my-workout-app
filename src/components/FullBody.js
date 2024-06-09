@@ -1,4 +1,5 @@
 // the Detail that shows up when someone selects "Full Body"
+// Formik documentation used: https://formik.org/docs/examples/checkboxes
 
 import ExercisesChecklist from "../features/exercises/ExercisesChecklist";
 import {Col, Row, Card} from 'reactstrap';

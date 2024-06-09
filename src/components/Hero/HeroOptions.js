@@ -1,48 +1,35 @@
-import { Routes, Route } from "react-router-dom";
-import FullBody from "../FullBody";
-import LowerBody from "../LowerBody";
-import UpperBody from "../UpperBody";
+import React, { useState } from 'react';
 import { Formik, Field, Form } from 'formik';
+import { Button } from 'reactstrap';
 
-const HeroOptions = () => {
-    return (
-    <div>
-    <h1>HeroOptions</h1>
+function HeroOptions({ onSubmit }) {
+  return (
     <Formik
-      initialValues={{
-        picked: '',
-      }}
-      onSubmit={async (values) => {
-        await new Promise((r) => setTimeout(r, 500));
-        alert(JSON.stringify(values, null, 2));
-      }}
+      initialValues={{ option: "" }}
+        onSubmit={(values, { setSubmitting }) => {
+          onSubmit(values.option);
+          setSubmitting(false);
+        }}
     >
-      {({ values }) => (
-        <Form>
-          <div id="exercise-group">Choose your workout:</div>
-          <div role="group" aria-labelledby="exercise-group">
-            <label>
-              <Field type="radio" name="exerciseOption" value="fullBody" />
-              Full Body
-            </label>
-            <label>
-              <Field type="radio" name="exerciseOption" value="UpperBody" />
-              Upper Body
-            </label>
-            <label>
-              <Field type="radio" name="exerciseOption" value="LowerBody" />
-              Lower Body
-            </label>
-            <div>Picked: {values.exerciseOption}</div>
-          </div>
+      {({ handleSubmit }) => (
+        <Form onSubmit={handleSubmit}>
+            <div id="exercise-group">Choose your workout:</div>
+            <div role="group" aria-labelledby="exercise-group">
+              <Field type="radio" name="option" value="fullBody" />
+              <label for="fullBody">Full Body</label>
+              <br />
+              <Field type="radio" name="option" value="upperBody" />
+              <label for="upperBody">Upper Body</label>
+              <br />
+              <Field type="radio" name="option" value="lowerBody" />
+              <label for="lowerBody">Lower Body</label>
+            </div>
 
-          <button type="submit">Submit</button>
-        </Form>
+            <Button type="submit">Submit</Button>
+          </Form>
       )}
     </Formik>
-      <FullBody />
-  </div>
-    );
-};
+  );
+}
 
 export default HeroOptions;
