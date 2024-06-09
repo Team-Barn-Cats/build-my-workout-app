@@ -6,7 +6,7 @@ import { Formik, Field, Form } from 'formik';
 import { Link } from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
 
-const HeroOptions = () => {
+const HeroOptionsNav = () => {
   const navigate = useNavigate();
   
     return (
@@ -49,4 +49,4 @@ const HeroOptions = () => {
     );
 };
 
-export default HeroOptions;
+export default HeroOptionsNav;
