@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Formik, Field, Form } from 'formik';
+import { Button } from 'reactstrap';
 
 function HeroOptions({ onSubmit }) {
   return (
@@ -24,7 +25,7 @@ function HeroOptions({ onSubmit }) {
               <label for="lowerBody">Lower Body</label>
             </div>
 
-            <button type="submit">Submit</button>
+            <Button type="submit">Submit</Button>
           </Form>
       )}
     </Formik>
