@@ -9,29 +9,28 @@ import { Formik, Field, Form } from "formik";
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 const ExercisesChecklist = () => {
+  const initialValues = {checked: []};
   const exercises = useSelector(selectFullBody);
   console.log("exercises:", exercises);
 
+  const handleSubmit = async (values) => {
+    try {
+      await sleep(500);
+      alert(JSON.stringify(values, null, 2));
+      console.log(values);
+    } catch (error) {
+      console.log(`Error: ${error}`);
+    }
+  }
+    
   return (
     <Col className="col-sm-6">
       <Formik
-        initialValues={{
-          checked: [],
-        }}
-        onSubmit={async (values) => {
-          await sleep(500);
-          alert(JSON.stringify(values, null, 2));
-        }}
+        initialValues={initialValues}
+        onSubmit={handleSubmit}
       >
-        {({ values }) => (
-          <Form>
-            {/* 
-            Multiple checkboxes with the same name attribute, but different
-            value attributes will be considered a "checkbox group". Formik will automagically
-            bind the checked values to a single array for your benefit. All the add and remove
-            logic will be taken care of for you.
-          */}
-            <div id="checkbox-group">Choose 5:</div>
+        <Form>
+           <div id="checkbox-group">Choose 5:</div>
             <div role="group" aria-labelledby="checkbox-group">
               {exercises.map((exercise) => {
                 return (
@@ -44,7 +43,6 @@ const ExercisesChecklist = () => {
 
             <Button type="submit">Submit</Button>
           </Form>
-        )}
       </Formik>
     </Col>
   );

@@ -7,15 +7,10 @@ import UpperBody from './components/UpperBody';
 import ExerciseHero from './components/Hero/ExerciseHero';
 import ExerciseDetailPage from './app/pages/ExerciseDetailPage.js';
 
-
-
-
 function App() {
   return (
     <div className="App">
-
       <h1>Build My Workout App</h1>
-
       <Routes>
               <Route path='/' element={<ExerciseHero />} />
               <Route path='fullBody' element={<FullBody />} />

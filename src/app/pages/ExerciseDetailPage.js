@@ -13,7 +13,7 @@ const ExerciseDetailPage = () => {
     console.log('exercise:', exercise)
 
     return (
-        <Container>
+        <Container class="modal">
             <Row>
                 <ExerciseDetail exercise={exercise} />
             </Row>
