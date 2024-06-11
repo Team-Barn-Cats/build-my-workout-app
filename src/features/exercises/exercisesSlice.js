@@ -24,6 +24,13 @@ export const selectExerciseById = (id) => (state) => {
     );
 };
 
+export const selectExerciseDetailsById = (id) => {
+    return EXERCISES.find((exercise) => exercise.id === id);
+};
+
+export const selectAllExercises = () => {
+    return EXERCISES;
+};
 /* export const selectUpperBody = (state) => {
     return state.exercises.exercisesArray.filter((exercise) => exercise.category === 'upperbody');
 };

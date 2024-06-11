@@ -44,6 +44,7 @@ const ExercisesChecklist = () => {
             <Button type="submit">Submit</Button>
           </Form>
       </Formik>
+      <h1>Hello</h1>
     </Col>
   );
 };
