@@ -31,6 +31,13 @@ export const selectExerciseDetailsById = (id) => {
 export const selectAllExercises = () => {
     return EXERCISES;
 };
+
+export const selectLowerBody = () => {
+    return EXERCISES.filter((exercise) => exercise.category === 'lowerbody');
+};
+export const selectUpperBody = () => {
+    return EXERCISES.filter((exercise) => exercise.category === 'upperbody');
+};
 /* export const selectUpperBody = (state) => {
     return state.exercises.exercisesArray.filter((exercise) => exercise.category === 'upperbody');
 };
