@@ -6,6 +6,7 @@ import LowerBody from './components/LowerBody';
 import UpperBody from './components/UpperBody';
 import ExerciseHero from './components/Hero/ExerciseHero';
 import ExerciseDetailPage from './app/pages/ExerciseDetailPage.js';
+import MyForm from './components/formTest/MyForm.js';
 
 function App() {
   return (

@@ -28,6 +28,10 @@ export const selectExerciseDetailsById = (id) => {
     return EXERCISES.find((exercise) => exercise.id === id);
 };
 
+export const selectExerciseDetailsByName = (name) => {
+    return EXERCISES.find((exercise) => exercise.name === name);
+};
+
 export const selectAllExercises = () => {
     return EXERCISES;
 };

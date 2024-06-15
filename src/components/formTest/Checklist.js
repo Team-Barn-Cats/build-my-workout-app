@@ -12,7 +12,7 @@ import { selectExerciseDetailsById } from "../../features/exercises/exercisesSli
 import { useState } from "react";
 import ExerciseDetail from "../../features/exercises/ExerciseDetail";
 
-const ExercisesChecklist = ({ id, exercises }) => {
+const Checklist = ({ id, exercises }) => {
   const [exerciseId, setExerciseId] = useState(0);
   const selectedExercise = selectExerciseDetailsById(exerciseId);
 
@@ -46,5 +46,4 @@ const ExercisesChecklist = ({ id, exercises }) => {
   );
 };
 
-
-export default ExercisesChecklist;
+export default Checklist;

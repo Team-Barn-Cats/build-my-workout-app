@@ -1,9 +1,7 @@
-import TestExercisesCheckbox from "./TestExercisesCheckbox";
 import {
   Col,
   CardBody,
   Card,
-  CardTitle,
   CardHeader,
   Button,
   Row,
@@ -11,9 +9,10 @@ import {
 import { useState } from "react";
 import { selectExerciseDetailsById } from "./exercisesSlice";
 import ExerciseDetail from "./ExerciseDetail";
+import { Field } from 'formik';
 
-const TestSimpleList = ({ exerciseList }) => {
-    const [exerciseId, setExerciseId] = useState(0);
+const TestSimpleList = ({name, exerciseList }) => {
+  const [exerciseId, setExerciseId] = useState(0);
     const selectedExercise = selectExerciseDetailsById(exerciseId);
 
   return (
@@ -22,11 +21,9 @@ const TestSimpleList = ({ exerciseList }) => {
         <Card>
           <CardHeader>Select Five:</CardHeader>
           {exerciseList.map((exercise) => (
-            <CardBody
-              key={exercise.id}
-              className="col-sm-12 border d-flex justify-content-between align-items-center"
-            >
-              <TestExercisesCheckbox exercise={exercise} />
+            <CardBody className="col-sm-12 border d-flex justify-content-between align-items-center" key={exercise.id}>
+              <Field type="checkbox" name={name} value={exercise.name} />
+              <label htmlFor={exercise.id}>{exercise.name}</label>
               <Button type='button' className="" onClick={() => setExerciseId(exercise.id)}>Details</Button>
             </CardBody>
           ))}
