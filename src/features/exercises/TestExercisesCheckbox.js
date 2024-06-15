@@ -1,6 +1,6 @@
 // This puts the exercise objects from the array into checkboxes
 // Keeping this for later: <ExerciseCard exercise={exercise}/>
-/* import { Card, CardHeader, CardTitle, CardText, Input, CardBody, Label, Button } from "reactstrap";
+import { Card, CardHeader, CardTitle, CardText, Input, CardBody, Label, Button } from "reactstrap";
 import { useState } from "react";
 
 
@@ -18,4 +18,4 @@ const TestExercisesCheckbox = ({ exercise, setExerciseId }) => {
   );
 };
 
-export default TestExercisesCheckbox; */
+export default TestExercisesCheckbox;

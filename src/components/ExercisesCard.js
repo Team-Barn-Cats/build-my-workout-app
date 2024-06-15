@@ -1,6 +1,6 @@
 // creates the clickable link that brings users to ExerciseDetailPage from Hero
 
-/* import {Card, CardBody, CardImg, CardImgOverlay, CardTitle} from 'reactstrap';
+import {Card, CardBody, CardImg, CardImgOverlay, CardTitle} from 'reactstrap';
 import { Link } from 'react-router-dom';
 
 const ExerciseCard = ({exercise}) => {
@@ -16,4 +16,4 @@ const ExerciseCard = ({exercise}) => {
     );
 };
 
-export default ExerciseCard;  */
+export default ExerciseCard; 

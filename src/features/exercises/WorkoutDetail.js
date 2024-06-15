@@ -1,4 +1,4 @@
-/* import { Card, CardImg, CardText, CardBody, Col, CardHeader } from 'reactstrap';
+import { Card, CardImg, CardText, CardBody, Col, CardHeader } from 'reactstrap';
 
 const WorkoutDetail = ( {exercise} ) => {
     const { image, name, description } = exercise;
@@ -16,4 +16,4 @@ const WorkoutDetail = ( {exercise} ) => {
     );
 };
 
-export default WorkoutDetail; */
+export default WorkoutDetail;
