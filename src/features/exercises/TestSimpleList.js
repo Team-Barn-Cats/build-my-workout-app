@@ -1,4 +1,4 @@
-import {
+/* import {
   Col,
   CardBody,
   Card,
@@ -37,3 +37,4 @@ const TestSimpleList = ({name, exerciseList }) => {
 };
 
 export default TestSimpleList;
+ */

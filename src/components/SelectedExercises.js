@@ -1,1 +1,0 @@
-// This will allow us to style the selected exercises in the checklist feature / component -- hint: use .map

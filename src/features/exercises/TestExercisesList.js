@@ -1,4 +1,4 @@
-import { Col, Row, Button, Card, CardHeader,CardBody } from "reactstrap";
+/* import { Col, Row, Button, Card, CardHeader,CardBody } from "reactstrap";
 import TestExercisesCheckbox from "./TestExercisesCheckbox";
 import { selectAllExercises } from "./exercisesSlice";
 
@@ -21,4 +21,4 @@ const TestExercisesList = ({setExerciseId}) => {
     );
 };
 
-export default TestExercisesList;
+export default TestExercisesList; */

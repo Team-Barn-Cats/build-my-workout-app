@@ -1,6 +1,6 @@
 // This puts the exercise objects from the array into checkboxes
 // Keeping this for later: <ExerciseCard exercise={exercise}/>
-import { Formik, Field, Form } from "formik";
+/* import { Formik, Field, Form } from "formik";
 import { useState } from "react";
 import { Button } from 'reactstrap';
 import ExerciseDetailPage from "../../app/pages/ExerciseDetailPage";
@@ -25,3 +25,4 @@ const ExercisesCheckbox = ({ exercise }) => {
 };
 
 export default ExercisesCheckbox;
+ */
