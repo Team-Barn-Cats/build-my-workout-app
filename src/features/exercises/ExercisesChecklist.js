@@ -1,51 +1,50 @@
-// This is where users see their subset of options and their selected exercises / difficulty
+import React from "react";
+import { Field } from "formik";
+import {
+  Col,
+  CardBody,
+  Card,
+  CardHeader,
+  Button,
+  Row,
+} from "reactstrap";
+import { selectExerciseDetailsById } from "../../features/exercises/exercisesSlice";
+import { useState } from "react";
+import ExerciseDetail from "../../features/exercises/ExerciseDetail";
 
-import { Col, Row, Card, Button } from "reactstrap";
-import ExercisesCheckbox from "./ExercisesCheckbox";
-import { selectFullBody } from "./exercisesSlice";
-import { useSelector } from "react-redux";
-import { Formik, Field, Form } from "formik";
+const ExercisesChecklist = ({ id, exercises }) => {
+  const [exerciseId, setExerciseId] = useState(0);
+  const selectedExercise = selectExerciseDetailsById(exerciseId);
 
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-
-const ExercisesChecklist = () => {
-  const initialValues = {checked: []};
-  const exercises = useSelector(selectFullBody);
-  console.log("exercises:", exercises);
-
-  const handleSubmit = async (values) => {
-    try {
-      await sleep(500);
-      alert(JSON.stringify(values, null, 2));
-      console.log(values);
-    } catch (error) {
-      console.log(`Error: ${error}`);
-    }
-  }
-    
   return (
-    <Col className="col-sm-6">
-      <Formik
-        initialValues={initialValues}
-        onSubmit={handleSubmit}
-      >
-        <Form>
-           <div id="checkbox-group">Choose 5:</div>
-            <div role="group" aria-labelledby="checkbox-group">
-              {exercises.map((exercise) => {
-                return (
-                  <Card className="m-4" key={exercise.id}>
-                    <ExercisesCheckbox exercise={exercise} />
-                  </Card>
-                );
-              })}
-            </div>
-
-            <Button type="submit">Submit</Button>
-          </Form>
-      </Formik>
-    </Col>
+    <Row>
+      <Col sm="5">
+        <Card>
+          <CardHeader>Select Five:</CardHeader>
+          {exercises.map((exercise) => (
+            <CardBody
+              className="col-sm-12 border d-flex justify-content-between align-items-center"
+              key={exercise.id}
+            >
+              <Field type="checkbox" name={id} value={exercise.name} />
+              <label htmlFor={exercise.id}>{exercise.name}</label>
+              <Button
+                type="button"
+                className=""
+                onClick={() => setExerciseId(exercise.id)}
+              >
+                Details
+              </Button>
+            </CardBody>
+          ))}
+        </Card>
+      </Col>
+      <Col sm="7" md="7">
+        <ExerciseDetail exercise={selectedExercise} />
+      </Col>
+    </Row>
   );
 };
+
 
 export default ExercisesChecklist;

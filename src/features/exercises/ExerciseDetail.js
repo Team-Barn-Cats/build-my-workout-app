@@ -6,7 +6,7 @@ const ExerciseDetail = ( {exercise} ) => {
     const { image, name, description } = exercise;
 
     return (
-        <Col>
+        
             <Card>
                 <CardHeader>{name}</CardHeader>
                 <CardImg top src={image} alt={name} />
@@ -14,7 +14,7 @@ const ExerciseDetail = ( {exercise} ) => {
                     <CardText>{description}</CardText>
                 </CardBody>
             </Card>
-        </Col>
+        
     );
 };
 

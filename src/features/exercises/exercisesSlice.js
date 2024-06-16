@@ -24,6 +24,24 @@ export const selectExerciseById = (id) => (state) => {
     );
 };
 
+export const selectExerciseDetailsById = (id) => {
+    return EXERCISES.find((exercise) => exercise.id === id);
+};
+
+export const selectExerciseDetailsByName = (name) => {
+    return EXERCISES.find((exercise) => exercise.name === name);
+};
+
+export const selectAllExercises = () => {
+    return EXERCISES;
+};
+
+export const selectLowerBody = () => {
+    return EXERCISES.filter((exercise) => exercise.category === 'lowerbody');
+};
+export const selectUpperBody = () => {
+    return EXERCISES.filter((exercise) => exercise.category === 'upperbody');
+};
 /* export const selectUpperBody = (state) => {
     return state.exercises.exercisesArray.filter((exercise) => exercise.category === 'upperbody');
 };
